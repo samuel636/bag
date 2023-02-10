@@ -1,0 +1,220 @@
+body{
+    background-image: log/io.jpg;
+    background-color: whitesmoke
+}
+.container {
+        position: relative;
+        text-align: center;
+    }
+.col-6 img{
+    position: relative;
+    margin-top: 1cm;
+    width: 120px;
+    height:130px;
+    position: left;
+    padding-left: 9px;
+    margin-right:26cm;
+   }
+.col-6 h1   {
+    position:absolute;
+    color: brown;
+   margin-top: 2cm;
+    text-align: center;
+    margin-left: 13cm;
+   }
+.box{
+    background-color: brown;
+    background-repeat: 90%;
+    width:100%;
+}   
+
+
+.box{
+    width: 1250px;
+    float: right;
+    margin-top: 0.5cm;
+ 
+}
+
+.box ul li {
+    width: 130px;
+    float: right;
+    margin: 10px;
+   
+
+}
+
+.box ul li a {
+    text-decoration: none;
+    color: rgb(222, 219, 212);
+    
+}
+
+
+.box ul li a:hover {
+    color: rgb(207, 220, 28);
+    cursor: pointer;
+   
+    }
+
+.col-md-5 > article img{
+    display: flex;
+    
+    margin-right: 0.8cm;
+    float:right;
+    width:16cm;
+    height:8cm
+   
+}
+.col-md-5 h2{
+    margin:1cm;
+    margin-right: 28.5cm;
+    margin-top: 3cm;
+    padding-top: 0px;
+    position:top;
+    align-items: baseline;
+    text-align: center;
+    
+}
+.col-md-5 p{
+    margin-left: 1cm;
+    margin-right: 17cm;
+     text-align: left;
+     margin-top: 0%;
+     align-items: baseline;
+     align-items: center;
+     
+   
+}
+.text{
+  margin-top: 4cm;
+  display: flex;
+  float: left;
+  margin-left: 3cm;
+  margin-top: 2cm;
+  background-color: rgb(176, 40, 40);
+   background-size: 9%;
+   color:rgb(212, 192, 192);
+
+}
+footer {
+    padding-left: 0cm;
+   margin-top: 3cm;
+   padding-top: 3cm;
+    background-color: rgb(44, 4, 4);
+    color: white;
+    text-align: center;
+    align-items: baseline;
+    padding: 30px;
+
+}
+.bags img{
+    margin-top: 3cm;
+    height: 3cm;
+    width: 4cm;
+    margin-left: 2.5cm;
+    display: grid;
+    flex: left;
+
+}
+.bags b{
+    display: flex;
+    float:left;
+    margin-left: 3cm;
+
+}
+
+.bags{
+    display: grid;
+    grid-template-columns: 
+    auto auto auto;
+}
+.boy{
+    display: grid;
+    grid-template-columns: 
+    auto auto auto;
+}
+.boy b{
+    display: flex;
+    float:left;
+    margin-left: 3cm;
+
+}
+.boy img{
+    margin-top: 3cm;
+    height: 3cm;
+    width: 4cm;
+    margin-left: 2.5cm;
+    display: grid;
+     
+}
+.bags img{
+    margin-top: 3cm;
+    height: 3cm;
+    width: 4cm;
+    margin-left: 2.5cm;
+    display: grid;
+    
+}
+h3{
+    font-size: xx-large     ;
+    margin-top: 16%;
+    position:center;
+    padding-top: 3%;
+    text-align: center;
+    margin-right:5%;
+}
+.women{
+    display: grid;
+    grid-template-columns: 
+    auto auto auto;
+}
+h4{
+    font-size: x-large;
+    margin-top: 3%;
+    position:center;
+    padding-top: 3%;
+    text-align: center;
+    margin-right:7%;
+   
+}
+.women img{
+    margin-top: 3cm;
+    height: 3cm;
+    width: 4cm;
+    margin-left: 2.5cm;
+    display: grid;
+    flex: left;
+
+}
+.womens img{
+    margin-top: 3cm;
+    height: 3cm;
+    width: 4cm;
+    margin-left: 2.5cm;
+    display: grid;
+    flex: left;
+
+}
+.women b{
+    padding-left: 3cm;
+  display: flex;
+  
+}
+.womens b{
+    padding-left: 3cm;
+    display: flex;
+}
+.womens {
+    display: grid;
+    grid-template-columns: 
+    auto auto auto;  
+}
+.women{
+    display: grid;
+    grid-template-columns: 
+    auto auto auto;
+}
+
+
+
