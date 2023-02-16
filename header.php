@@ -12,6 +12,7 @@
       
       <div class="row">
          <div class="col-6">
+         <h1>The Hand Bag company</h1>  
          
        <img class="img-fluid float " src="log/c.jpg" alt="logooo" > 
       </div>     

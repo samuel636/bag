@@ -1,6 +1,5 @@
 <?php include "header.php" ?>
-<h1>working</h1>
-<h2>tjkj</h2>
+
 <h3>this is trial</h3>
 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum, rerum ut fuga repellat itaque, consectetur atque 
     accusantium dolorem fugiat, tempore reprehenderit dicta iste cupiditate iure esse dolore iusto pariatur culpa.</p>

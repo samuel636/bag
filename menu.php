@@ -8,4 +8,7 @@
      Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel officia cupiditate ea. Excepturi illum aspernatur quasi dolor consectetu
      r iusto dolorem reprehenderit quis nihil possimus deserunt sapiente vel, similique temporibus distinctio?
 </p>
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur, iure? Laudantium 
+    laboriosam ut ratione dicta, quos ullam ipsam est cumque. Enim magni tenetur, ratione
+     sequi voluptatem dolorum dicta perferendis aliquam!</p>
 <?php include "footre.php" ?>
