@@ -20,10 +20,13 @@
        <div class ="row">
        <div class="box">
         <ul type="none">
+        <li><a href="one.php"> order</a></li>
         <li><a href="ex1.php">exersice 1 </a></li>
         <li><a href="menu.php"> menu</a></li>
         <li><a href="contact.php"> contact us</a></li>
         <li><a href="home.php"> Home</a></li>
+       
+      
       
 </ul>
 </div>         
