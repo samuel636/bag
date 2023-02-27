@@ -7,13 +7,7 @@ include '../bag/header.php';
 <input type="text" name="email" placeholder="email" required  ><br><br>
 <input type="text" name="adress" placeholder="Adress" required ><br><br>
 <input type="number" name="userid" placeholder="userID" required  ><br><br>
-<select name="groupid">
-    <option value = "BBCAP22">BBCAP22</option>
-    <option value = "BBCAP21">BBCAP21</option>
-    <option value = "Others">Others</option>
-</select><br><br>
 <input type="submit" value="submit" name="submit">
-
 </form>
 
 <?php

@@ -13,7 +13,7 @@ if($result->num_rows > 0){
       
         echo "
  <tr>
- <td><a href ='updatesingle.php?=$row[id]'>$row[id]</a></td>
+ 
  <td>$row[name]</td>
  <td>$row[email]</td>
  <td>$row[address]</td>
