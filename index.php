@@ -1,3 +1,8 @@
+
+<?php
+require_once 'db.php';
+
+?>
 <?php include "header.php" ?>
 
 <h3>this is trial</h3>
