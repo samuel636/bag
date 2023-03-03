@@ -3,12 +3,11 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>The Hand Bag company</title>
     <link rel= stylesheet  href ="vm.css">
   </head>
   <body>
        
-    <div class="container">
       
       <div class="row">
          <div class="col-6">
@@ -23,7 +22,7 @@
         <li><a href="menu.php"> menu</a></li>
         <li><a href="contact.php"> contact us</a></li>
         <li><a href="one.php"> order</a></li>
-        <li><a href="product/product.php">Product</a></li>
+        <li><a href="products.php">Product</a></li>
         <li><a href="home.php"> Home</a></li>
  
 </ul>

@@ -1,11 +1,11 @@
-<?php include "../header.php" ?>
+<?php include "header.php" ?>
 
 <html>
 <head>
 	<title>Add new product</title>
 </head>
-<body>
-	<h1>Add new product</h1>
+<body>	
+	<h3>Add new product</h3>
 	<form action="add_product.php" method="post">
 		<label>Product name:</label><br>
 		<input type="text" name="name_product"><br>
@@ -19,7 +19,7 @@
 	</form>
 </body>
 </html>
-<?php include "../footer.php" ?>
+<?php include "footer.php" ?>
 
 
 

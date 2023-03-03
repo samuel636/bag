@@ -1,5 +1,5 @@
-
 <?php
+
 // Connexion à la base de données
 $servername = "db";
 $username = "tea19";
