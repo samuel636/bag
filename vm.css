@@ -9,18 +9,20 @@ body{
 .col-6 img{
     position: relative;
     margin-top: 1cm;
-    width: 100%;
+    width: 120px;
     height:130px;
     position: left;
-
+    padding-left: 9px;
+    margin-right:26cm;
    }
 .col-6 h1   {
     position:absolute;
     color: brown;
     margin-top: 2cm;
     text-align: center;
+    margin-left: 13cm;
    }
-
+ 
 .box{
     background-color: brown;
     background-repeat: 100%;
@@ -30,12 +32,14 @@ body{
 }   
 
 .box ul li {
-    float: right;
+    float: left;
     margin: 10px;
+    margin-left: 80px;
 
 }
 
 .box ul li a {
+    width: 130px;
     text-decoration: none;
     color: rgb(222, 219, 212);
     
@@ -149,20 +153,13 @@ footer {
 }
 h3{
     font-size: xx-large;
-    margin-top: 10%;
+    margin-top: 5%;
     position:center;
     padding-top: 3%;
     text-align: center;
     margin-right:5%;
 }
-h1{
-    font-size: xx-large     ;
-    margin-top: 16%;
-    position:center;
-    padding-top: 3%;
-    text-align: center;
-    margin-right:5%;
-}
+
 .women{
     display: grid;
     grid-template-columns: 
@@ -215,3 +212,7 @@ h4{
     auto auto auto;
 }
 
+p {
+    align-items: center;   
+    padding-left: 2cm;
+}

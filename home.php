@@ -1,11 +1,15 @@
 <?php include "header.php" ?>
 <h3> Home</h3>
-<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et maxime aperiam velit! Illo ipsum alias saepe quo voluptates a
-    spernatur omnis, reprehenderit maiores quidem repudiandae ipsam veritatis, labore sequi ab pariatur.
-    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde, doloremque rem vel ex cumque temporibus deleniti officiis assumend
-    a omnis, perspiciatis molestiae saepe consequatur autem rerum quos impedit animi accusamudfsfsds corrupti.
+<p>
+Welcome to our online bag boutique! We are thrilled to have you here and showcase our wide range of stylish and luxurious bags that will add the perfect finishing touch to your outfit.
 </p>
-<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A magni ex laborum perspiciatis nesciunt eum delectus e
-    xcepturi neque libero! Maxime soluta illo veniam natus fugit doloremque amet quidem, laudantium deleniti?</p>
-<p>thjdfksdf djfkdsfhjsdf sjdkfhsjdf</p>
+<p>
+Our curated collection features a variety of bags, from chic and sophisticated to trendy and fun. Whether you're in search of a classic tote for work, a crossbody for weekend outings, or a statement clutch for a night out, we have something to suit your style and needs.
+</p>
+<p>
+At our store, we believe in offering high-quality bags that are both beautiful and functional. Our team is dedicated to providing you with exceptional customer service, ensuring that you find the perfect bag to complement your individual style.
+</p>
+<p>
+Thank you for choosing us as your destination for premium bags. We hope you enjoy your shopping experience and find the perfect bag to elevate your wardrobe!
+</p>
 <?php include "footer.php" ?>

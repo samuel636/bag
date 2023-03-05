@@ -19,11 +19,13 @@
        <div class ="row">
        <div class="box">
         <ul type="none">
-        <li><a href="menu.php"> menu</a></li>
-        <li><a href="contact.php"> contact us</a></li>
-        <li><a href="one.php"> order</a></li>
-        <li><a href="products.php">Product</a></li>
-        <li><a href="home.php"> Home</a></li>
+           <li><a href="home.php"> Home</a></li>
+          <li><a href="products.php">Product</a></li>
+          <li><a href="one.php"> order</a></li>
+          <li><a href="contact.php"> contact us</a></li>
+  
+       
+     
  
 </ul>
 </div>         

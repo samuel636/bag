@@ -2,23 +2,32 @@
 
 <!DOCTYPE html>
 <html>
+
 <head>
-    <meta charset="UTF-8">
-    <title>List of products</title>
-    <link rel= stylesheet  href ="product.css">
+  <meta charset="UTF-8">
+  <title>List of products</title>
+  <link rel=stylesheet href="product.css">
+  <script>
+  function addToCart() {
+    // addToCart
+  }
+  </script>
 </head>
+
 <body>
-    <h3>List of products</h3>
-    <form action="new_product.php" method="post">
-    <input type="submit" value="Add new product">
-    </form>
-    <table>
-        <tr>
-            <th>Product</th>
-            <th>Description</th>
-            <th>Price</th>
-        </tr>
-        <?php
+  <h3>List of products</h3>
+  <form action="new_product.php" method="post">
+  <input type="submit" value="Add new product">
+  </form>
+  <table>
+    <tr>
+      <th>Product</th>
+      <th>Description</th>
+      <th>Price</th>
+      <th>Availability</th>
+      <th>Action</th>
+    </tr>
+    <?php
         // Connect to the database and execute the SQL query to select the products
       $servername = "db";
       $username = "tea19";
@@ -44,6 +53,8 @@
                 echo "<td>" . $row["name_product"] . "</td>";
                 echo "<td>" . $row["description"] . "</td>";
                 echo "<td>" . $row["price"] . "</td>";
+                echo "<td>". ($row["quantity"] > 0 ? 'Available' : 'Non available') ."</td>";
+                echo "<td> <input type='submit' value='Add to cart' onclick='addToCart(".$row["id"].")'> </td>";
                 echo "</tr>";
             }
         } else {
@@ -54,7 +65,8 @@
         // Closing the connection to the database
         mysqli_close($conn);
         ?>
-    </table>
+  </table>
 </body>
+
 </html>
 <?php include "footer.php" ?>
