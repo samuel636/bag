@@ -25,6 +25,7 @@
         <li><a href="menu.php"> menu</a></li>
         <li><a href="contact.php"> contact us</a></li>
         <li><a href="home.php"> Home</a></li>
+        <li><a href="read.php"> Home</a></li>
        
       
       

@@ -1,6 +1,6 @@
 ?php
 $title="Reading Data from the data base";
-include '..header.php';
+include '../bag/header.php';
 include 'db.php';
 $sql = "select * from userinfo ";
 $result =$conn->query($sq1);
