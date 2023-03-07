@@ -1,5 +1,5 @@
 <?php 
-// Connexion à la base de données
+// Database connection
 $servername = "db";
 $username = "tea19";
 $password = "tea19";
