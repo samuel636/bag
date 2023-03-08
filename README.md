@@ -1,3 +1,8 @@
+# Start the project
+
+To launch the project, run the following command:
+`docker-compose up` 
+
 # Team19
 Functionalities:
 

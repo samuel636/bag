@@ -7,29 +7,24 @@
     <link rel= stylesheet  href ="vm.css">
   </head>
   <body>
-       
-    <div class="container">
-      
-      <div class="row">
+        <div class="container">
+     <div class="row">
          <div class="col-6">
-         <h1>The Hand Bag company</h1>  
          
+        <h1>The Hand Bag company</h1>  
        <img class="img-fluid float " src="log/c.jpg" alt="logooo" > 
       </div>     
    </div> 
        <div class ="row">
        <div class="box">
         <ul type="none">
+        <li><a href="child.html">Children </a></li>
+        <li><a href="womenbag.html"> Women</a></li>
+        <li><a href="meenbag.html"> Men</a></li>
         <li><a href="one.php"> order</a></li>
-        <li><a href="ex1.php">exersice 1 </a></li>
-        <li><a href="menu.php"> menu</a></li>
-        <li><a href="contact.php"> contact us</a></li>
-        <li><a href="home.php"> Home</a></li>
-        <li><a href="read.php"> Home</a></li>
-       
-      
+        <li><a href="home.php"> home</a></li>
       
 </ul>
 </div>         
 </div>
-<body>
+</div>
