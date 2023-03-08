@@ -1,11 +1,11 @@
 <?php
 ob_start();
-$tiltle = " dele";
+$tiltle = " deleivery";
 include '../bag/header.php';
 ?>
 <form method = "post" action="">
 <input type="text" name="adress" placeholder="Adress" required ><br> <br>
-<input type="text" name="date" placeholder="date" required  ><br><br>
+<input type="date" name="date" placeholder="date" required  ><br><br>
 
 
 <input type="submit" value="submit" name="submit" >
@@ -23,7 +23,7 @@ if(isset ($_POST['submit'])){
     if($conn->query($sq2) ===TRUE){
         echo "your inforation is added succes";
         
-        header('Location: ba.php');
+        header('Location: read.php');
         exit();
       
     }

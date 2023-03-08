@@ -19,13 +19,13 @@ if(isset ($_POST['submit'])){
     $phone= $_POST['phone'];
     $adress = $_POST['adress'];
     include 'db.php';
-    $sq2 = "insert into userinfo (name,email,adress,phone)
+    $sq2 = "insert into userinfo(name,email,adress,phone)
     values('$name','$email','$adress','$phone')";
 
-    if($conn->query($sq2) ===TRUE){
+    if($conn->query($sq2) === TRUE){
         echo "your inforation is added succes";
         
-        header('Location: ba.php');
+        header('Location: bag.php');
         exit();
       
     }
@@ -33,6 +33,7 @@ if(isset ($_POST['submit'])){
         echo "error:".$conn->error;
     }
 }
+include '../bag/footer.php';
 ob_end_flush();
 ?>
 
