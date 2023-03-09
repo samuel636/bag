@@ -1,10 +1,10 @@
 <?php
 ob_start();
 $tiltle = " oder";
-include '../bag/header.php';
+include '../bag/crud/header.php';
 ?>
 <form method = "post" action="">
-<input type="text" name="bagname " placeholder="Bag Name" required ><br> <br>
+<input type="text" name="bagname" placeholder="Bag Name" required ><br> <br>
 <select name="cate">
     <option value = "childern">childern</option>
     <option value = "Women">women</option>
@@ -17,7 +17,7 @@ include '../bag/header.php';
 <?php
 if(isset ($_POST['submit'])){
     $bagname = $_POST['bagname'];
-    $cate = $_POST['cate'];
+    $cate = $_POST['catesdfsafdsaffds'];
    
     include 'db.php';
     $sq2 = "insert into baginfo (bagname,cate)
@@ -34,6 +34,7 @@ if(isset ($_POST['submit'])){
         echo "error:".$conn->error;
     }
 }
+include '../bag/crud/footer.php';
 ob_end_flush();
 ?>
 

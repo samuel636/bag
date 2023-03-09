@@ -18,11 +18,10 @@
        <div class ="row">
        <div class="box">
         <ul type="none">
-        <li><a href="child.html">Children </a></li>
-        <li><a href="womenbag.html"> Women</a></li>
-        <li><a href="meenbag.html"> Men</a></li>
-        <li><a href="one.php"> order</a></li>
         <li><a href="home.php"> home</a></li>
+        <li><a href="one.php"> order</a></li>
+        <li><a href="meenbag.html"> Men</a></li>
+       
       
 </ul>
 </div>         
