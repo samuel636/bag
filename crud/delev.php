@@ -1,11 +1,11 @@
 <?php
 ob_start();
 $tiltle = " deleivery";
-include '../bag/header.php';
+include '../bag/crud/header.php';
 ?>
 <form method = "post" action="">
-<input type="text" name="adress" placeholder="Adress" required ><br> <br>
-<input type="date" name="date" placeholder="date" required  ><br><br>
+
+<input type="Date" name="Date" placeholder="date" required  ><br><br>
 
 
 <input type="submit" value="submit" name="submit" >
@@ -13,17 +13,18 @@ include '../bag/header.php';
 
 <?php
 if(isset ($_POST['submit'])){
-    $adress = $_POST['adress'];
-    $date = $_POST['date'];
+  
+    $Date = $_POST['Date'];
     
     include 'db.php';
-    $sq2 = "insert into delivery (adress,date)
-    values('$adress','$date')";
+    $sq2 = "insert into delivery (Date)
+    values('$Date')";
 
     if($conn->query($sq2) ===TRUE){
         echo "your inforation is added succes";
         
         header('Location: read.php');
+        
         exit();
       
     }
@@ -31,6 +32,7 @@ if(isset ($_POST['submit'])){
         echo "error:".$conn->error;
     }
 }
+include '../bag/crud/footer.php';
 ob_end_flush();
 ?>
 

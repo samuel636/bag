@@ -1,9 +1,10 @@
 <?php
 ob_start();
 $tiltle = " oder";
-include '../bag/header.php';
+include '../bag/crud/header.php';
 ?>
 <form method = "post" action="">
+    
 <input type="text" name="name" placeholder="Name" required ><br> <br>
 <input type="text" name="email" placeholder="email" required  ><br><br>
 <input type="number" name="phone" placeholder="phone " required  ><br><br>
@@ -33,7 +34,7 @@ if(isset ($_POST['submit'])){
         echo "error:".$conn->error;
     }
 }
-include '../bag/footer.php';
+include '../bag/crud/footer.php';
 ob_end_flush();
 ?>
 
