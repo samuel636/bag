@@ -17,7 +17,7 @@ include '../bag/crud/header.php';
 <?php
 if(isset ($_POST['submit'])){
     $bagname = $_POST['bagname'];
-    $cate = $_POST['cate'];
+    $cate = $_POST['catesdfsafdsaffds'];
    
     include 'db.php';
     $sq2 = "insert into baginfo (bagname,cate)
